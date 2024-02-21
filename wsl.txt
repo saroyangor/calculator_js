@@ -1,7 +1,0 @@
-wsl --set-default-version 2
-cd /mnt
-
-
-
-
-go test -coverprofile=coverage.out && go tool cover -html=coverage.out
